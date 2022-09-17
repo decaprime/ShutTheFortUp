@@ -14,7 +14,7 @@
     <RootNamespace>ShutTheFortUp</RootNamespace>
   </PropertyGroup>
   <Target Name="Thunderstore Copy to Dist" AfterTargets="AfterBuild" Condition=" '$(Configuration)' == 'Release'">
-    <Copy SourceFiles="$(OutDir)\ShutTheFortUp.dll" DestinationFolder="$(SolutionDir)/dist" />
+    <Copy SourceFiles="$(OutDir)\ShutTheFortUp.dll" DestinationFolder="$(ProjectDir)/dist" />
   </Target>
   <ItemGroup>
     <PackageReference Include="BepInEx.IL2CPP" Version="6.0.0-*" IncludeAssets="compile" />
