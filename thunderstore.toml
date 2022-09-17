@@ -15,7 +15,7 @@ molenzwiebel-Wetstone = "1.1.0"
 deca-VampireCommandFramework = "0.4.12"
 
 [build]
-icon = "./icon.png"
+icon = "./logo.png"
 readme = "./README.md"
 outdir = "./build"
 
