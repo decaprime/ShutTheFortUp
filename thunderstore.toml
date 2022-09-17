@@ -1,0 +1,29 @@
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "deca"
+name = "ShutTheFortUp"
+versionNumber = "0.1.0"
+description = "Opens or closes all your doors and/or windows with a single command."
+websiteUrl = "https://github.com/decaprime/ShutTheFortUp"
+containsNsfwContent = false
+
+[package.dependencies]
+BepInEx-BepInExPack_V_Rising = "1.0.0"
+molenzwiebel-Wetstone = "1.1.0"
+deca-VampireCommandFramework = "0.4.12"
+
+[build]
+icon = "./icon.png"
+readme = "./README.md"
+outdir = "./build"
+
+[[build.copy]]
+source = "./dist"
+target = ""
+
+[publish]
+repository = "https://thunderstore.io"
+communities = ["v-rising"]
+categories = []
